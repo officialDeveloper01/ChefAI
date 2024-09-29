@@ -8,7 +8,7 @@ const post = async (req: NextApiRequest, res: NextApiResponse) => {
   };
 
   const openai = new OpenAI({
-    apiKey: 'sk-proj-ccXvkOnyvRlEpMDqVUfBT3BlbkFJ1lYiKaPt3aLBWkM3nQKm', 
+    apiKey: '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', 
   });
 
   const response = await openai.completions.create({
